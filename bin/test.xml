@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlicerData>
+  <!-- slicer parameters -->
+  <params>
+    <shader_path>./shaders</shader_path>
+    <font_path>./fonts</font_path>
+    <font_name>League_Gothic.ttf</font_name>
+    <output_path>./output.mov</output_path>
+    <progress_file>./prog</progress_file>
+    <backgroundColor> 0.0000 0.0000 0.0000 </backgroundColor>
+    <!--window> 1280 720 </window-->
+    <!--window>320 180 </window-->
+    <window> 960 540 </window>
+    <camera>  -24.0 149.0 0.0  </camera>
+    <zoom> 2.6 </zoom>
+    
+    <!-- slicer geolocation factor -->
+    <lon_offset> 180.0 </lon_offset>
+    
+    <!-- texture archive location -->
+    <texture_archive>./OFAM3</texture_archive>
+    
+  </params>
+  
+  <layer name="logo">
+    <texture> assets/bluelink256x256.png </texture>
+    <color> 1.000000 1.000000 1.000000 </color>
+  </layer>
+  
+  <layer name="earth">
+    <texture> bluemarble/cont8.png </texture>
+    <color> 1.000000 1.000000 1.000000 </color>
+  </layer>
+  
+     
+  
+  <sequence name="sea_surface_velocity" start_date="2451544.5" preview="false">
+  
+  <pt>-20.74 -13.25 2.17 0</pt>
+  <pt>-20.55 175.25 2.27 24</pt>
+  
+</sequence>
+</SlicerData>
